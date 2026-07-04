@@ -15,3 +15,18 @@ business_templates:
     owner_role: テンプレート管理責任者
     last_reviewed_on: "2026-07-04"
     notes: "【サンプル・実在しません】"
+  - business_template_id: BT-0001
+    template_name: "部門別損益ダッシュボード MVP"
+    purpose: "会計明細から部門別PLを生成する第1号モデルとしてWFS候補を検証する。"
+    target_apps: "部門別損益管理を行うGoogle Sheetsおよび将来のWebアプリ"
+    current_version: 0.1.0
+    status: proposed
+    github_repository: "TBD"
+    master_template_location: "Google Drive folder ID: 1KCvB8_2n5PC6CGbUhc_OJdBYe2Ed89HU / Spreadsheet ID: 1pY1Q8tuJWJBq25zL-PKuOmygZ50XYffnJ6cRPKiym-Q"
+    readme_ai:
+      status: available
+      location: "/README_AI.md and Google Sheets README_AI"
+    consuming_app_ids: [APP-0001]
+    owner_role: テンプレート管理責任者
+    last_reviewed_on: "2026-07-04"
+    notes: "実運用前のため正式WFSではない。"

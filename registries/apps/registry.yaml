@@ -10,3 +10,13 @@ apps:
     owner_role: アプリ管理責任者
     last_reviewed_on: "2026-07-04"
     notes: "【サンプル・実在しません】"
+  - app_id: APP-0001
+    name: "部門別損益ダッシュボード"
+    purpose: "DATA貼付から部門別PLと経営ダッシュボードを生成する。"
+    system_ids: [SYS-0001]
+    repository_id: REPO-0001
+    business_template_ids: [BT-0001]
+    lifecycle_status: proposed
+    owner_role: アプリ管理責任者
+    last_reviewed_on: "2026-07-04"
+    notes: "Google Sheets ID: 1pY1Q8tuJWJBq25zL-PKuOmygZ50XYffnJ6cRPKiym-Q"

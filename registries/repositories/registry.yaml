@@ -11,3 +11,14 @@ repositories:
     owner_role: リポジトリ管理責任者
     last_reviewed_on: "2026-07-04"
     notes: "【サンプル・実在しません】"
+  - repository_id: REPO-0001
+    name: "department-pl-dashboard"
+    purpose: "部門別損益ダッシュボードの設計、検証、変更履歴を管理する。"
+    github_repository: "TBD"
+    app_ids: [APP-0001]
+    template_ids: [BT-0001]
+    visibility: private
+    lifecycle_status: proposed
+    owner_role: リポジトリ管理責任者
+    last_reviewed_on: "2026-07-04"
+    notes: "ローカル作業先: D:/WellzFriend_projects/department-pl-dashboard。GitHub作成後にURLを確定する。"
