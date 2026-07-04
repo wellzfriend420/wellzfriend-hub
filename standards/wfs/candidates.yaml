@@ -7,9 +7,11 @@ candidates:
     purpose: "WFSの第1号モデルとして実運用から標準化候補を抽出する。"
     app_id: pending
     repository_id: pending
+    business_template_id: BT-0002
     local_reference: "D:/WellzFriend_projects/department-pl-dashboard"
+    google_drive_template_id: 1pY1Q8tuJWJBq25zL-PKuOmygZ50XYffnJ6cRPKiym-Q
     evaluation_areas: ["保守性", "拡張性", "AI引継ぎ", "テンプレート運用"]
     owner_role: 開発標準管理責任者
     started_on: "2026-07-04"
     last_reviewed_on: "2026-07-04"
-    notes: "正式標準への昇格は実運用で効果を確認し、承認後に行う。"
+    notes: "親テンプレート名はWFS準拠済み。独立GitHubリポジトリ登録後にrepository_idを更新する。正式標準への昇格は実運用で効果を確認し、承認後に行う。"

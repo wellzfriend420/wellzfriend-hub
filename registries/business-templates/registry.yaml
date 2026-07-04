@@ -1,5 +1,21 @@
 schema_version: 1
 business_templates:
+  - business_template_id: BT-0002
+    template_name: TPL_部門別損益ダッシュボード
+    purpose: "会計試算表から部門別損益、比較指標、経営ダッシュボードを作成する親テンプレート。"
+    target_apps: "部門別損益管理を行う承認済み案件"
+    current_version: "0.1"
+    status: proposed
+    github_repository: pending
+    master_template_location: "Google Drive file ID: 1pY1Q8tuJWJBq25zL-PKuOmygZ50XYffnJ6cRPKiym-Q"
+    readme_ai:
+      status: available
+      location: "D:/WellzFriend_projects/department-pl-dashboard/README_AI.md"
+    consuming_app_ids: []
+    owner_role: テンプレート管理責任者
+    last_reviewed_on: "2026-07-04"
+    notes: "Drive配置: WellzFriend/Templates/Department PL Dashboard/TPL_部門別損益ダッシュボード_v0.1。WFS-CAND-0001。独立GitHubリポジトリへの移行は未完了。"
+
   - business_template_id: BT-0001
     template_name: TPL_資金繰り
     purpose: "資金繰りアプリで使用するGoogleスプレッドシートの親テンプレート。"
