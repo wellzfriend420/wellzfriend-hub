@@ -1,0 +1,15 @@
+schema_version: 1
+risks:
+  - risk_id: RISK-SAMPLE-0001
+    title: "【サンプル】復旧手順の陳腐化"
+    description: "【サンプル】構成変更後に復旧手順が追従しない可能性。"
+    target_ids: [SYS-0000]
+    likelihood: medium
+    impact: high
+    status: identified
+    prevention: "【サンプル】構成変更時に復旧文書を確認する。"
+    detection: "【サンプル】定期復元訓練で差異を検出する。"
+    response: "【サンプル】手順更新と再訓練を行う。"
+    owner_role: リスク管理責任者
+    next_review_on: "2026-10-01"
+    last_reviewed_on: "2026-07-04"

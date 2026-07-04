@@ -1,0 +1,16 @@
+schema_version: 1
+databases:
+  - database_id: DB-0000
+    name: "【サンプル】統合業務データベース"
+    purpose: "【サンプル】論理的なデータ管理対象を示す。"
+    system_ids: [SYS-0000]
+    app_ids: [APP-0000]
+    data_classification: confidential
+    canonical_data_owner: データ管理責任者
+    logical_location: "【サンプル】社内データカタログの論理参照ID"
+    retention_policy: "【サンプル】承認済み保持・削除方針を参照"
+    backup_policy: "【サンプル】承認済みバックアップ・復元方針を参照"
+    lifecycle_status: proposed
+    owner_role: データベース管理責任者
+    last_reviewed_on: "2026-07-04"
+    notes: "【サンプル・秘密値なし・実在しません】"

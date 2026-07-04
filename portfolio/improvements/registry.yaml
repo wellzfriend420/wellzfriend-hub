@@ -1,0 +1,16 @@
+schema_version: 1
+improvements:
+  - improvement_id: IMP-000000
+    title: "【サンプル】復旧訓練の定期化"
+    problem: "【サンプル】復旧可能性の確認方法が統一されていない。"
+    expected_outcome: "【サンプル】定期的な復元確認の結果を追跡できる。"
+    source_reference: "【サンプル】受付チャネル参照-SAMPLE"
+    target_ids: [SYS-0000, APP-0000]
+    priority: medium
+    status: accepted
+    decision: accepted
+    decision_reason: "【サンプル】事業継続性を高めるため。"
+    owner_role: 改善管理責任者
+    accepted_on: "2026-07-04"
+    last_reviewed_on: "2026-07-04"
+    notes: "【サンプル・実在しません】"

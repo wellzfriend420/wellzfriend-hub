@@ -1,0 +1,12 @@
+schema_version: 1
+systems:
+  - system_id: SYS-0000
+    name: "【サンプル】アプリ事業基盤システム"
+    purpose: "【サンプル】複数アプリに共通する論理基盤を表す。"
+    app_ids: [APP-0000]
+    database_ids: [DB-0000]
+    lifecycle_status: proposed
+    owner_role: システム管理責任者
+    canonical_reference: "【サンプル】docs/systems/SYS-0000"
+    last_reviewed_on: "2026-07-04"
+    notes: "【サンプル・実在しません】"

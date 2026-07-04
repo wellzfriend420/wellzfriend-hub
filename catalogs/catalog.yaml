@@ -1,0 +1,10 @@
+schema_version: 1
+entries:
+  - catalog_id: CAT-SAMPLE-0001
+    title: "【サンプル】アプリ事業運営マニュアル"
+    kind: knowledge
+    description: "【サンプル】ツール非依存の会社ルール。"
+    canonical_reference: ../docs/operations-manual/README.md
+    status: active
+    owner_role: Hub管理責任者
+    last_reviewed_on: "2026-07-04"

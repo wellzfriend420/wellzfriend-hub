@@ -1,0 +1,11 @@
+schema_version: 1
+features:
+  - feature_id: FEAT-000000
+    name: "【サンプル】業務状況表示"
+    purpose: "【サンプル】機能台帳の記入方法を示す。"
+    app_ids: [APP-0000]
+    specification_reference: "【サンプル】対象リポジトリ内 docs/features/FEAT-000000.md"
+    lifecycle_status: proposed
+    owner_role: プロダクト管理責任者
+    last_reviewed_on: "2026-07-04"
+    notes: "【サンプル・実在しません】"

@@ -1,0 +1,17 @@
+schema_version: 1
+business_templates:
+  - business_template_id: BT-0000
+    template_name: "【サンプル】標準アプリ親テンプレート"
+    purpose: "【サンプル】新規アプリの共通初期構成を提供する。"
+    target_apps: "【サンプル】標準構成を採用する新規アプリ"
+    current_version: 0.1.0
+    status: proposed
+    github_repository: "SAMPLE-OWNER/SAMPLE-TEMPLATE-REPOSITORY"
+    master_template_location: "【サンプル】リポジトリルート /template"
+    readme_ai:
+      status: planned
+      location: "【サンプル】/README_AI.md"
+    consuming_app_ids: [APP-0000]
+    owner_role: テンプレート管理責任者
+    last_reviewed_on: "2026-07-04"
+    notes: "【サンプル・実在しません】"

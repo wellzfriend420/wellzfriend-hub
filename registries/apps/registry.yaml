@@ -1,0 +1,12 @@
+schema_version: 1
+apps:
+  - app_id: APP-0000
+    name: "【サンプル】業務支援アプリ"
+    purpose: "【サンプル】台帳形式を説明する。"
+    system_ids: [SYS-0000]
+    repository_id: REPO-0000
+    business_template_ids: [BT-0000]
+    lifecycle_status: proposed
+    owner_role: アプリ管理責任者
+    last_reviewed_on: "2026-07-04"
+    notes: "【サンプル・実在しません】"

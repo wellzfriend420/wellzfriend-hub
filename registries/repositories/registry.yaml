@@ -1,0 +1,13 @@
+schema_version: 1
+repositories:
+  - repository_id: REPO-0000
+    name: "【サンプル】sample-app"
+    purpose: "【サンプル】独立アプリリポジトリの記入例"
+    github_repository: "SAMPLE-OWNER/SAMPLE-REPOSITORY"
+    app_ids: [APP-0000]
+    template_ids: [BT-0000]
+    visibility: private
+    lifecycle_status: proposed
+    owner_role: リポジトリ管理責任者
+    last_reviewed_on: "2026-07-04"
+    notes: "【サンプル・実在しません】"

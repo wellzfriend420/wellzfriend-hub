@@ -1,0 +1,158 @@
+schema_version: 2
+registry_type: ai_team_members
+ai_team:
+  - ai_id: AI-001
+    nickname: チャッピー
+    official_name: ChatGPT
+    provider: OpenAI
+    role: AI戦略・設計パートナー
+    mission: "ウェルズフレンドの理念・設計思想・事業全体を整理し、人とAIが共に成長できる仕組みを設計する。"
+    responsibilities: ["経営壁打ち", "事業企画", "システム設計", "業務改善", "運営マニュアル", "README_AI", "戦略立案", "文章作成"]
+    strengths: ["概念設計", "全体最適", "長期運営設計", "業務整理", "アイデア整理"]
+    weaknesses: ["ローカル環境操作", "実機操作", "単独実装"]
+    tools: ["ChatGPT"]
+    started_on: unknown
+    usage_status: active
+    plan_name: 確認中
+    environment: 確認中
+    connection_method: 確認中
+    permission_level: observe
+    app_ids: []
+    collaborator_ai_ids: [AI-002, AI-003, AI-004, AI-005, AI-006]
+    document_references: ["../../docs/operations-manual/08-ai-operations.md"]
+    readme_ai_reference: planned
+    owner_role: AI運営責任者
+    notes: "未提示の運営情報は確認中。"
+    updated_on: "2026-07-04"
+    updated_by_role: AI運営責任者
+    last_reviewed_on: "2026-07-04"
+
+  - ai_id: AI-002
+    nickname: こーちゃん
+    official_name: Codex
+    provider: OpenAI
+    role: AI開発エンジニア
+    mission: "設計思想を長期運用可能なシステムとして実装する。"
+    responsibilities: ["Webアプリ開発", "GitHub", "Hub構築", "コード実装", "テンプレート作成", "リファクタリング"]
+    strengths: ["実装", "GitHub", "コード品質", "保守性"]
+    weaknesses: ["経営理念策定", "抽象設計"]
+    tools: ["Codex"]
+    started_on: unknown
+    usage_status: active
+    plan_name: 確認中
+    environment: 確認中
+    connection_method: 確認中
+    permission_level: observe
+    app_ids: []
+    collaborator_ai_ids: [AI-001, AI-003, AI-004]
+    document_references: ["../../docs/operations-manual/08-ai-operations.md"]
+    readme_ai_reference: planned
+    owner_role: AI運営責任者
+    notes: "未提示の運営情報は確認中。"
+    updated_on: "2026-07-04"
+    updated_by_role: AI運営責任者
+    last_reviewed_on: "2026-07-04"
+
+  - ai_id: AI-003
+    nickname: くろちゃん
+    official_name: Claude
+    provider: Anthropic
+    role: AIドキュメント・仕様設計担当
+    mission: "誰でも理解できる高品質なドキュメントを作成する。"
+    responsibilities: ["仕様書", "設計書", "契約書", "帳票", "マニュアル", "要件整理"]
+    strengths: ["長文作成", "文章整理", "帳票設計"]
+    weaknesses: ["GitHub運営", "開発環境構築"]
+    tools: ["Claude"]
+    started_on: unknown
+    usage_status: active
+    plan_name: 確認中
+    environment: 確認中
+    connection_method: 確認中
+    permission_level: observe
+    app_ids: []
+    collaborator_ai_ids: [AI-001, AI-002]
+    document_references: ["../../docs/operations-manual/08-ai-operations.md"]
+    readme_ai_reference: planned
+    owner_role: AI運営責任者
+    notes: "未提示の運営情報は確認中。"
+    updated_on: "2026-07-04"
+    updated_by_role: AI運営責任者
+    last_reviewed_on: "2026-07-04"
+
+  - ai_id: AI-004
+    nickname: えんちゃん
+    official_name: n8n
+    provider: n8n
+    role: AI自動化エンジニア
+    mission: "人・AI・システムをつなぎ、業務を自動化する。"
+    responsibilities: ["LINE連携", "API連携", "Google Workspace連携", "ワークフロー", "通知", "自動化"]
+    strengths: ["自動化", "API", "ワークフロー"]
+    weaknesses: ["経営判断", "UIデザイン"]
+    tools: ["n8n"]
+    started_on: unknown
+    usage_status: active
+    plan_name: 確認中
+    environment: 確認中
+    connection_method: 確認中
+    permission_level: observe
+    app_ids: []
+    collaborator_ai_ids: [AI-001, AI-002]
+    document_references: ["../../docs/operations-manual/08-ai-operations.md"]
+    readme_ai_reference: planned
+    owner_role: AI運営責任者
+    notes: "未提示の運営情報は確認中。"
+    updated_on: "2026-07-04"
+    updated_by_role: AI運営責任者
+    last_reviewed_on: "2026-07-04"
+
+  - ai_id: AI-005
+    nickname: らびちゃん
+    official_name: Lovart
+    provider: Lovart
+    role: AIイラストレーター
+    mission: "ウェルズフレンドの世界観をイラストとして表現する。"
+    responsibilities: ["イラスト制作", "キャラクター制作", "アイコン制作", "挿絵制作"]
+    strengths: ["イラスト", "世界観表現", "ビジュアル制作"]
+    weaknesses: ["システム設計"]
+    tools: ["Lovart"]
+    started_on: unknown
+    usage_status: active
+    plan_name: 確認中
+    environment: 確認中
+    connection_method: 確認中
+    permission_level: observe
+    app_ids: []
+    collaborator_ai_ids: [AI-001, AI-006]
+    document_references: ["../../docs/operations-manual/08-ai-operations.md"]
+    readme_ai_reference: planned
+    owner_role: AI運営責任者
+    notes: "未提示の運営情報は確認中。"
+    updated_on: "2026-07-04"
+    updated_by_role: AI運営責任者
+    last_reviewed_on: "2026-07-04"
+
+  - ai_id: AI-006
+    nickname: きーちゃん
+    official_name: Canva
+    provider: Canva
+    role: AIデザインパートナー
+    mission: "ウェルズフレンドのブランドと想いを伝わるデザインへ変換する。"
+    responsibilities: ["LPデザイン", "SNS画像", "チラシ", "プレゼン資料", "ブランドデザイン", "テンプレート作成"]
+    strengths: ["デザイン", "レイアウト", "ブランド構築"]
+    weaknesses: ["システム設計", "プログラム開発"]
+    tools: ["Canva"]
+    started_on: unknown
+    usage_status: active
+    plan_name: 確認中
+    environment: 確認中
+    connection_method: 確認中
+    permission_level: observe
+    app_ids: []
+    collaborator_ai_ids: [AI-001, AI-005]
+    document_references: ["../../docs/operations-manual/08-ai-operations.md"]
+    readme_ai_reference: planned
+    owner_role: AI運営責任者
+    notes: "未提示の運営情報は確認中。"
+    updated_on: "2026-07-04"
+    updated_by_role: AI運営責任者
+    last_reviewed_on: "2026-07-04"

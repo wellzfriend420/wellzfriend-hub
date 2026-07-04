@@ -1,0 +1,11 @@
+schema_version: 1
+decisions:
+  - decision_id: DEC-SAMPLE-0001
+    title: "【サンプル】Hubを顧客情報の正本にしない"
+    status: accepted
+    decision_date: "2026-07-04"
+    owner_role: Hub管理責任者
+    approver_role: アプリ事業責任者
+    context: "【サンプル】正本の重複と機密情報混入を防止する。"
+    decision: "【サンプル】顧客情報の正本は各社の統合データベースとする。"
+    consequences: "【サンプル】Hubは管理情報と論理参照先だけを保持する。"

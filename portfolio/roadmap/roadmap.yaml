@@ -1,0 +1,12 @@
+schema_version: 1
+roadmap_items:
+  - roadmap_id: ROAD-SAMPLE-0001
+    title: "【サンプル】共通運用品質の向上"
+    outcome: "【サンプル】復旧可能性を全対象で確認できる状態にする。"
+    target_period: "2026-Q4"
+    status: proposed
+    related_app_ids: [APP-0000]
+    improvement_ids: [IMP-000000]
+    owner_role: ポートフォリオ管理責任者
+    last_reviewed_on: "2026-07-04"
+    notes: "【サンプル・実在しません】"

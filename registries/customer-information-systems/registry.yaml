@@ -1,0 +1,13 @@
+schema_version: 1
+customer_information_systems:
+  - customer_system_id: CIS-0000
+    company_scope: "【サンプル】社内会社区分-COMPANY-SAMPLE"
+    canonical_database_reference: "【サンプル】社内データカタログの論理参照ID"
+    owner_role: 情報管理責任者
+    app_ids: [APP-0000]
+    data_classification: restricted
+    retention_and_deletion_policy: "【サンプル】承認済み方針文書の参照先"
+    backup_policy: "【サンプル】承認済みバックアップ方針の参照先"
+    lifecycle_status: proposed
+    last_reviewed_on: "2026-07-04"
+    notes: "【サンプル・秘密値なし・実在しません】"
