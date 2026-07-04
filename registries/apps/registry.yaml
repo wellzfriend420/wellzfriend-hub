@@ -1,5 +1,16 @@
 schema_version: 1
 apps:
+  - app_id: APP-0001
+    name: 資金繰りアプリ
+    purpose: "日々の入出金予定と実績、売掛・買掛、口座残高を確認し、短期の資金繰りを把握する。"
+    system_ids: [SYS-0001]
+    repository_id: REPO-0001
+    business_template_ids: []
+    lifecycle_status: development
+    owner_role: アプリ管理責任者
+    last_reviewed_on: "2026-07-04"
+    notes: "ソース正本は独立GitHubリポジトリ。Googleスプレッドシート実体はDriveに保持。"
+
   - app_id: APP-0000
     name: "【サンプル】業務支援アプリ"
     purpose: "【サンプル】台帳形式を説明する。"

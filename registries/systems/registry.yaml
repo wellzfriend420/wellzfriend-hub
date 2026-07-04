@@ -1,5 +1,16 @@
 schema_version: 1
 systems:
+  - system_id: SYS-0001
+    name: 資金繰りシステム
+    purpose: "入出金予定・実績、売掛・買掛、口座残高を管理し、短期の資金繰り判断を支援する。"
+    app_ids: [APP-0001]
+    database_ids: [DB-0001]
+    lifecycle_status: proposed
+    owner_role: システム管理責任者
+    canonical_reference: "https://github.com/wellzfriend420/wellzfriend-cashflow-app/blob/main/PROJECT.md"
+    last_reviewed_on: "2026-07-04"
+    notes: "Google Driveから独立GitHubリポジトリへ移行済み。運用開始状態は要確認。"
+
   - system_id: SYS-0000
     name: "【サンプル】アプリ事業基盤システム"
     purpose: "【サンプル】複数アプリに共通する論理基盤を表す。"

@@ -1,5 +1,17 @@
 schema_version: 1
 repositories:
+  - repository_id: REPO-0001
+    name: wellzfriend-cashflow-app
+    purpose: "資金繰りアプリのソースコード、設計、AI向け指示、変更履歴を管理する。"
+    github_repository: "wellzfriend420/wellzfriend-cashflow-app"
+    app_ids: [APP-0001]
+    template_ids: []
+    visibility: private
+    lifecycle_status: active
+    owner_role: リポジトリ管理責任者
+    last_reviewed_on: "2026-07-04"
+    notes: "2026-07-04にGoogle Driveから移行。可視性はGitHub上で要確認。"
+
   - repository_id: REPO-0000
     name: "【サンプル】sample-app"
     purpose: "【サンプル】独立アプリリポジトリの記入例"

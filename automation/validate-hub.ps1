@@ -51,6 +51,12 @@ $idRules = @{
   improvement_id = '^IMP-[0-9]{6}$'; customer_system_id = '^CIS-[0-9]{4}$'
   repository_id = '^REPO-[0-9]{4}$'
 }
+$idDefinitionFolders = @{
+  system_id = 'systems'; app_id = 'apps'; database_id = 'databases'
+  feature_id = 'features'; ai_id = 'ai-team'; business_template_id = 'business-templates'
+  improvement_id = 'improvements'; customer_system_id = 'customer-information-systems'
+  repository_id = 'repositories'
+}
 $seenIds = @{}
 Get-ChildItem -LiteralPath $Root -Recurse -Filter '*.yaml' | ForEach-Object {
   $yamlFile = $_
@@ -59,6 +65,8 @@ Get-ChildItem -LiteralPath $Root -Recurse -Filter '*.yaml' | ForEach-Object {
     $lineNumber++
     if ($_ -match '^\s+([a-z_]+_id):\s+([A-Z]+-[A-Z0-9-]+)\s*$' -and $idRules.ContainsKey($Matches[1])) {
       $key = $Matches[1]; $value = $Matches[2]
+      $definitionFolder = $idDefinitionFolders[$key]
+      if ($yamlFile.FullName -notlike "*\$definitionFolder\*.yaml") { return }
       if ($value -notmatch $idRules[$key]) { $errors.Add("Invalid ID: $($yamlFile.FullName):$lineNumber $value") }
       if ($seenIds.ContainsKey($value)) { $errors.Add("Duplicate ID definition: $value") } else { $seenIds[$value] = $yamlFile.FullName }
     }
