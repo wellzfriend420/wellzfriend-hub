@@ -150,7 +150,7 @@ Customersへコピーして運用開始
 - DASHBOARD
 - REPORT
 
-README_AIを読めば、Claude・ChatGPT・Codexなど別AIでも保守・改修できることを目標とします。具体的なAI名と担当は[AIチーム名簿](../../../registries/ai-team/README.md)を正本とします。
+README_AIを読めば、Claude・ChatGPT・Codexなど別AIでも保守・改修できることを目標とします。具体的なAI名と担当は[AIチーム名簿](../../registries/ai-team/README.md)を正本とします。
 
 ---
 
@@ -160,7 +160,7 @@ README_AIを読めば、Claude・ChatGPT・Codexなど別AIでも保守・改修
 
 実際に運用しながら改善点を抽出し、今後のWFSへ反映します。
 
-Candidateの状態と確認情報は[Candidate一覧](../candidates.yaml)で管理します。
+Candidateの状態と確認情報は[Candidate一覧](candidates.yaml)で管理します。
 
 ---
 

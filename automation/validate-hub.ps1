@@ -73,5 +73,25 @@ Get-ChildItem -LiteralPath $Root -Recurse -Filter '*.yaml' | ForEach-Object {
   }
 }
 
+$wfsRoot = Join-Path $Root 'standards/wfs'
+$wfsReadme = Join-Path $wfsRoot 'README.md'
+$wfsChangelog = Join-Path $wfsRoot 'CHANGELOG.md'
+if (Test-Path -LiteralPath $wfsReadme) {
+  $wfsIndexText = Get-Content -LiteralPath $wfsReadme -Raw -Encoding UTF8
+  if ($wfsIndexText -match 'Current Version:\s*\*\*([0-9]+\.[0-9]+)\*\*') {
+    $wfsVersion = $Matches[1]
+    $wfsVersionFile = Join-Path $wfsRoot "WFS_v$wfsVersion.md"
+    if (-not (Test-Path -LiteralPath $wfsVersionFile)) { $errors.Add("Missing current WFS file: WFS_v$wfsVersion.md") }
+    if (-not (Test-Path -LiteralPath $wfsChangelog)) {
+      $errors.Add('Missing WFS CHANGELOG.md')
+    } else {
+      $wfsChangeText = Get-Content -LiteralPath $wfsChangelog -Raw -Encoding UTF8
+      if ($wfsChangeText -notmatch "(?m)^## \[$([regex]::Escape($wfsVersion))\]") { $errors.Add("WFS CHANGELOG missing version: $wfsVersion") }
+    }
+  } else {
+    $errors.Add('WFS README does not declare current version')
+  }
+}
+
 if ($errors.Count -gt 0) { $errors | ForEach-Object { Write-Error $_ }; exit 1 }
 Write-Output 'Hub validation passed.'

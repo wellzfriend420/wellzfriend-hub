@@ -1,0 +1,28 @@
+# WFS Changelog
+
+WFS（WellzFriend Standard）の正式Versionごとの変更内容を記録します。
+
+## [Unreleased]
+
+正式採用前の案は[改善提案](proposals.md)で管理し、この欄へ確定事項として記載しません。
+
+## [0.1] - 2026-07-04
+
+### Added
+
+- WFS-001 開発・保存場所の役割
+- WFS-002 Google Drive構成
+- WFS-003 テンプレート運用
+- WFS-004 命名規則
+- WFS-005 開発フロー
+- WFS-006 AI引継ぎ
+- WFS-007 第1号モデル
+- 部門別損益ダッシュボードを第1号Candidateとして登録
+
+### Governance
+
+- WFS Ver.0.1を正式採用
+- 正式ルール、Candidate、未採用提案を分離管理
+
+[Unreleased]: ./proposals.md
+[0.1]: ./WFS_v0.1.md
