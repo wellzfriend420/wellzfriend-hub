@@ -1,5 +1,20 @@
 schema_version: 1
 databases:
+  - database_id: DB-0002
+    name: AI研究所データ構造
+    purpose: "困りごと、市場調査、実験、改善、発信、商品化、AI利用知識の論理構造と連携契約を管理する。"
+    system_ids: [SYS-0003]
+    app_ids: [APP-0003]
+    data_classification: confidential
+    canonical_data_owner: データ管理責任者
+    logical_location: "WellzFriend/Templates/AI Research Lab/TPL_AI研究所_v0.1 (Google Drive file ID: 1kowbLzteahhBi1m_eLZfbyk2OrYIriz8LOfF_HDO_t8)。運用データはCustomers配下の子データ。"
+    retention_policy: "利用目的と法令・契約に基づき年次見直し。通常削除はrecord_statusによる論理削除。"
+    backup_policy: "Google DriveのVersion履歴と承認済み復旧方針に従い、復旧時は件数・ID・数式・入力規則を検証する。"
+    lifecycle_status: active
+    owner_role: データベース管理責任者
+    last_reviewed_on: "2026-07-05"
+    notes: "実データ、個人情報、認証情報はHubへ保存しない。BigQuery移行時も固定IDと英字フィールド契約を維持する。"
+
   - database_id: DB-0001
     name: 資金繰りテンプレートデータ構造
     purpose: "資金繰りテンプレートのデータ構造を追跡し、将来の会社統合DB移行へつなげる。"

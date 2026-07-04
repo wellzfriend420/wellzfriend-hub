@@ -1,5 +1,16 @@
 schema_version: 1
 apps:
+  - app_id: APP-0003
+    name: AI研究所
+    purpose: "多業種の困りごとを収集し、市場調査、実験、改善、発信、商品化までを一元管理する。"
+    system_ids: [SYS-0003]
+    repository_id: REPO-0003
+    business_template_ids: [BT-0003]
+    lifecycle_status: active
+    owner_role: AI研究所管理責任者
+    last_reviewed_on: "2026-07-05"
+    notes: "WFS-CAND-0002。設計正本は独立GitHub、親テンプレートと運用子データはGoogle Driveで分離管理。"
+
   - app_id: APP-0002
     name: 部門別損益ダッシュボード
     purpose: "会計試算表から部門別損益、前月・前年同月比較、利益率、経営グラフを生成する。"

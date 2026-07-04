@@ -1,5 +1,17 @@
 schema_version: 1
 repositories:
+  - repository_id: REPO-0003
+    name: wellzfriend-ai-research-lab
+    purpose: "AI研究所のApps Script、設計、検証、AI引継ぎ、変更履歴を管理する。"
+    github_repository: "wellzfriend420/wellzfriend-ai-research-lab"
+    app_ids: [APP-0003]
+    template_ids: [BT-0003]
+    visibility: private
+    lifecycle_status: active
+    owner_role: リポジトリ管理責任者
+    last_reviewed_on: "2026-07-05"
+    notes: "AI研究所の設計・コード・変更履歴のSingle Source of Truth。運用データは保存しない。"
+
   - repository_id: REPO-0002
     name: wellzfriend-department-pl-dashboard
     purpose: "部門別損益ダッシュボードの設計、検証、AI引継ぎ、変更履歴を管理する。"

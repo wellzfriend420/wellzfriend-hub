@@ -1,6 +1,21 @@
 schema_version: 1
 wfs_version: 0.1
 candidates:
+  - candidate_id: WFS-CAND-0002
+    name: AI研究所
+    status: candidate
+    purpose: "WFS準拠の新規プロジェクト標準モデルとして、親子テンプレート分離、AI引継ぎ、Apps Script配布、外部自動化連携を検証する。"
+    app_id: APP-0003
+    repository_id: REPO-0003
+    business_template_id: BT-0003
+    local_reference: "D:/WellzFriend_projects/ai-research-lab"
+    google_drive_template_id: 1kowbLzteahhBi1m_eLZfbyk2OrYIriz8LOfF_HDO_t8
+    evaluation_areas: ["Governance", "Registries", "親子テンプレート運用", "AI引継ぎ", "Apps Script配布", "n8n・BigQuery連携"]
+    owner_role: 開発標準管理責任者
+    started_on: "2026-07-05"
+    last_reviewed_on: "2026-07-05"
+    notes: "正式WFSへの反映は実運用の検証と承認後に行う。既存のWFS Ver.0.1は変更しない。"
+
   - candidate_id: WFS-CAND-0001
     name: 部門別損益ダッシュボード
     status: candidate

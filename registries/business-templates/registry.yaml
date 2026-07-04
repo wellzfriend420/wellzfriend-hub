@@ -1,5 +1,21 @@
 schema_version: 1
 business_templates:
+  - business_template_id: BT-0003
+    template_name: TPL_AI研究所
+    purpose: "多業種の困りごとから調査、実験、改善、発信、商品化までを管理するGoogle Sheets親テンプレート。"
+    target_apps: "WellzFriend Platform配下でAI研究所を運用する承認済み会社・案件"
+    current_version: 0.1.0
+    status: active
+    github_repository: "wellzfriend420/wellzfriend-ai-research-lab"
+    master_template_location: "Google Drive folder ID: 1cfeYTpsg8e9Me_iAZRteQzna0P29PQO8 / Spreadsheet ID: 1kowbLzteahhBi1m_eLZfbyk2OrYIriz8LOfF_HDO_t8"
+    readme_ai:
+      status: available
+      location: "https://github.com/wellzfriend420/wellzfriend-ai-research-lab/blob/main/README_AI.md"
+    consuming_app_ids: [APP-0003]
+    owner_role: テンプレート管理責任者
+    last_reviewed_on: "2026-07-05"
+    notes: "Drive配置: WellzFriend/Templates/AI Research Lab/TPL_AI研究所_v0.1。原本は直接運用しない。"
+
   - business_template_id: BT-0002
     template_name: TPL_部門別損益ダッシュボード
     purpose: "会計試算表から部門別損益、比較指標、経営ダッシュボードを作成する親テンプレート。"
