@@ -8,5 +8,6 @@
 - [Version管理標準](version-management-standard.md)
 - [リリース標準](release-standard.md)
 - [データ保存の基本原則](data-storage-principles.md)
+- [WFS（WellzFriend Standard）](wfs/README.md)
 
 標準の管理責任は開発標準管理責任者、承認責任はアプリ事業責任者です。年1回以上見直します。特定ツール上の設定は[プラットフォームガイド](../docs/platform-guides/README.md)へ分離します。

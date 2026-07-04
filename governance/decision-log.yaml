@@ -1,5 +1,16 @@
 schema_version: 1
 decisions:
+  - decision_id: DEC-0002
+    title: "WFS Ver.0.1の正式採用"
+    status: accepted
+    decision_date: "2026-07-04"
+    owner_role: 開発標準管理責任者
+    approver_role: アプリ事業責任者
+    context: "全システムの開発・保守・AI引継ぎ・テンプレート運用を、最小限の共通ルールから統一する。"
+    decision: "WFS-001からWFS-007をWellzFriend Standard Ver.0.1として正式採用する。"
+    consequences: "新規システムはWFS Ver.0.1を基準とし、実運用で効果確認済みの改善だけを次Versionへ反映する。"
+    canonical_reference: ../standards/wfs/README.md
+
   - decision_id: DEC-0001
     title: "データ保存場所の役割分担"
     status: accepted

@@ -35,6 +35,7 @@
 - [Version管理標準](standards/version-management-standard.md)
 - [リリース標準](standards/release-standard.md)
 - [データ保存の基本原則](standards/data-storage-principles.md)
+- [WFS（WellzFriend Standard）](standards/wfs/README.md)
 
 ## 利用開始
 

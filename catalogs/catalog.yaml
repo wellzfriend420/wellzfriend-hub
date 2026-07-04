@@ -1,5 +1,14 @@
 schema_version: 1
 entries:
+  - catalog_id: CAT-0002
+    title: "WFS（WellzFriend Standard）"
+    kind: standard
+    description: "全システムの開発、保守、AI引継ぎ、テンプレート化を統一する最小標準。"
+    canonical_reference: ../standards/wfs/README.md
+    status: active
+    owner_role: 開発標準管理責任者
+    last_reviewed_on: "2026-07-04"
+
   - catalog_id: CAT-0001
     title: "データ保存の基本原則"
     kind: standard

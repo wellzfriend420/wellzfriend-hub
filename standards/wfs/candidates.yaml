@@ -1,0 +1,15 @@
+schema_version: 1
+wfs_version: 0.1
+candidates:
+  - candidate_id: WFS-CAND-0001
+    name: 部門別損益ダッシュボード
+    status: candidate
+    purpose: "WFSの第1号モデルとして実運用から標準化候補を抽出する。"
+    app_id: pending
+    repository_id: pending
+    local_reference: "D:/WellzFriend_projects/department-pl-dashboard"
+    evaluation_areas: ["保守性", "拡張性", "AI引継ぎ", "テンプレート運用"]
+    owner_role: 開発標準管理責任者
+    started_on: "2026-07-04"
+    last_reviewed_on: "2026-07-04"
+    notes: "正式標準への昇格は実運用で効果を確認し、承認後に行う。"
