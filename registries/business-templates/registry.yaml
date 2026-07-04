@@ -1,5 +1,21 @@
 schema_version: 1
 business_templates:
+  - business_template_id: BT-0001
+    template_name: TPL_資金繰り
+    purpose: "資金繰りアプリで使用するGoogleスプレッドシートの親テンプレート。"
+    target_apps: "資金繰りアプリおよび承認済み派生案件"
+    current_version: "0.1"
+    status: active
+    github_repository: "wellzfriend420/wellzfriend-cashflow-app"
+    master_template_location: "Google Drive file ID: 1sI5S8S6XI7gx2NOz9I0ZQMiz5IR2HLucDazKWV_EgpA"
+    readme_ai:
+      status: available
+      location: "https://github.com/wellzfriend420/wellzfriend-cashflow-app/blob/main/README_AI.md"
+    consuming_app_ids: [APP-0001]
+    owner_role: テンプレート管理責任者
+    last_reviewed_on: "2026-07-04"
+    notes: "Drive配置: WellzFriend/Templates/Cashflow App/TPL_資金繰り_v0.1。原本は直接運用しない。"
+
   - business_template_id: BT-0000
     template_name: "【サンプル】標準アプリ親テンプレート"
     purpose: "【サンプル】新規アプリの共通初期構成を提供する。"

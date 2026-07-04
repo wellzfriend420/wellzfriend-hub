@@ -1,19 +1,19 @@
 schema_version: 1
 databases:
   - database_id: DB-0001
-    name: 資金繰りアプリ専用データベース
-    purpose: "資金繰りアプリが利用するデータ構造の移行前管理対象。将来は会社統合DBへ統合する。"
+    name: 資金繰りテンプレートデータ構造
+    purpose: "資金繰りテンプレートのデータ構造を追跡し、将来の会社統合DB移行へつなげる。"
     system_ids: [SYS-0001]
     app_ids: [APP-0001]
     data_classification: restricted
     canonical_data_owner: データ管理責任者
-    logical_location: "Google Drive file ID: 1sI5S8S6XI7gx2NOz9I0ZQMiz5IR2HLucDazKWV_EgpA"
+    logical_location: "WellzFriend/Templates/Cashflow App/TPL_資金繰り_v0.1 (Google Drive file ID: 1sI5S8S6XI7gx2NOz9I0ZQMiz5IR2HLucDazKWV_EgpA)"
     retention_policy: "会社統合DBへの移行計画確定時に見直す。"
     backup_policy: "Google Driveの承認済みバックアップ方針に従う。"
     lifecycle_status: proposed
     owner_role: データベース管理責任者
     last_reviewed_on: "2026-07-04"
-    notes: "接続情報・業務データはHubへ保存しない。"
+    notes: "親テンプレート実体はBT-0001で管理。接続情報・業務データはHubへ保存しない。"
 
   - database_id: DB-0000
     name: "【サンプル】統合業務データベース"

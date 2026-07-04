@@ -10,6 +10,7 @@
 - 最終確認日: 2026-07-04
 - 現行版本文: [WFS Ver.0.1](WFS_v0.1.md)
 - 変更履歴: [CHANGELOG](CHANGELOG.md)
+- Google Drive構成台帳: [drive-structure.yaml](drive-structure.yaml)
 - Candidate一覧: [candidates.yaml](candidates.yaml)
 - 未採用の改善提案: [proposals.md](proposals.md)
 

@@ -1,0 +1,21 @@
+schema_version: 1
+structure_version: WFS-0.1
+root:
+  name: WellzFriend
+  google_drive_folder_id: 1YgqcwaIhzkWDsb07D36jkM_voFzs8ifT
+  owner_role: Google Drive管理責任者
+  last_reviewed_on: "2026-07-04"
+folders:
+  - name: Templates
+    google_drive_folder_id: 17PtWUwoMP-stjUSKiFjG3WtpUszjwl8h
+    purpose: "直接運用しない親テンプレートの実体を管理する。"
+    status: active
+  - name: Customers
+    google_drive_folder_id: 1YcSkob9PzvwBSWJ9C1Qg-O3NGSljmfL0
+    purpose: "会社・案件ごとの運用ファイルを管理する。"
+    status: active
+  - name: Archive
+    google_drive_folder_id: 1OVmEi-Ld8BTXGj9sz4bvPoMmTvGKKKVa
+    purpose: "旧版と移行済み資産を履歴として保管する。"
+    status: active
+notes: "フォルダIDは論理参照用。共有権限、認証情報、顧客情報はHubへ保存しない。"

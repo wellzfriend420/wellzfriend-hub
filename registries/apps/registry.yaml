@@ -5,7 +5,7 @@ apps:
     purpose: "日々の入出金予定と実績、売掛・買掛、口座残高を確認し、短期の資金繰りを把握する。"
     system_ids: [SYS-0001]
     repository_id: REPO-0001
-    business_template_ids: []
+    business_template_ids: [BT-0001]
     lifecycle_status: development
     owner_role: アプリ管理責任者
     last_reviewed_on: "2026-07-04"
