@@ -1,5 +1,14 @@
 schema_version: 1
 entries:
+  - catalog_id: CAT-0001
+    title: "データ保存の基本原則"
+    kind: standard
+    description: "GitHub、Google Drive、各会社統合DB、ローカルの保存責任を定める。"
+    canonical_reference: ../standards/data-storage-principles.md
+    status: active
+    owner_role: 情報管理責任者
+    last_reviewed_on: "2026-07-04"
+
   - catalog_id: CAT-SAMPLE-0001
     title: "【サンプル】アプリ事業運営マニュアル"
     kind: knowledge

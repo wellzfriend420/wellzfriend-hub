@@ -9,6 +9,7 @@
 - 確定情報と検討中情報を分け、状態・管理責任（個人名でなく役割）・最終確認日を持つ。
 - 廃止情報は削除せず履歴として保管する。
 - 会社ルールとツール固有の実現方法を混在させない。
+- [データ保存の基本原則](standards/data-storage-principles.md)に従い、GitHub、Google Drive、各会社統合DB、ローカルの役割を分離する。
 - 顧客情報、認証情報、秘密情報、接続情報をHubへ保存しない。
 
 ## 領域
@@ -33,6 +34,7 @@
 - [文書標準](standards/documentation-standard.md)
 - [Version管理標準](standards/version-management-standard.md)
 - [リリース標準](standards/release-standard.md)
+- [データ保存の基本原則](standards/data-storage-principles.md)
 
 ## 利用開始
 

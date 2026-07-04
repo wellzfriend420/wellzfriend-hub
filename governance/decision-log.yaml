@@ -1,11 +1,12 @@
 schema_version: 1
 decisions:
-  - decision_id: DEC-SAMPLE-0001
-    title: "【サンプル】Hubを顧客情報の正本にしない"
+  - decision_id: DEC-0001
+    title: "データ保存場所の役割分担"
     status: accepted
     decision_date: "2026-07-04"
-    owner_role: Hub管理責任者
+    owner_role: 情報管理責任者
     approver_role: アプリ事業責任者
-    context: "【サンプル】正本の重複と機密情報混入を防止する。"
-    decision: "【サンプル】顧客情報の正本は各社の統合データベースとする。"
-    consequences: "【サンプル】Hubは管理情報と論理参照先だけを保持する。"
+    context: "設計情報、利用成果物、業務データ、開発途中の情報の正本重複を防止する。"
+    decision: "GitHubを設計図書館、Google Driveを業務書庫、各会社統合DBをデータ保管庫、ローカルWellzFriend_OSを開発工房とする。"
+    consequences: "テンプレート設計情報はGitHub、親テンプレート実体はGoogle Drive、業務データは各会社統合DBへ保存する。"
+    canonical_reference: ../standards/data-storage-principles.md

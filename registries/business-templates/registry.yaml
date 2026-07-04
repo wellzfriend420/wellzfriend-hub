@@ -7,7 +7,7 @@ business_templates:
     current_version: 0.1.0
     status: proposed
     github_repository: "SAMPLE-OWNER/SAMPLE-TEMPLATE-REPOSITORY"
-    master_template_location: "【サンプル】リポジトリルート /template"
+    master_template_location: "【サンプル】Google Drive論理参照ID: DRIVE-TEMPLATE-SAMPLE"
     readme_ai:
       status: planned
       location: "【サンプル】/README_AI.md"
