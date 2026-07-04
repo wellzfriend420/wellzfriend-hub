@@ -1,5 +1,17 @@
 schema_version: 1
 repositories:
+  - repository_id: REPO-0002
+    name: wellzfriend-department-pl-dashboard
+    purpose: "部門別損益ダッシュボードの設計、検証、AI引継ぎ、変更履歴を管理する。"
+    github_repository: "wellzfriend420/wellzfriend-department-pl-dashboard"
+    app_ids: [APP-0002]
+    template_ids: [BT-0002]
+    visibility: private
+    lifecycle_status: active
+    owner_role: リポジトリ管理責任者
+    last_reviewed_on: "2026-07-04"
+    notes: "WFS-CAND-0001の設計正本。"
+
   - repository_id: REPO-0001
     name: wellzfriend-cashflow-app
     purpose: "資金繰りアプリのソースコード、設計、AI向け指示、変更履歴を管理する。"

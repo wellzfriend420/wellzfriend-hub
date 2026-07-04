@@ -1,5 +1,16 @@
 schema_version: 1
 apps:
+  - app_id: APP-0002
+    name: 部門別損益ダッシュボード
+    purpose: "会計試算表から部門別損益、前月・前年同月比較、利益率、経営グラフを生成する。"
+    system_ids: [SYS-0002]
+    repository_id: REPO-0002
+    business_template_ids: [BT-0002]
+    lifecycle_status: development
+    owner_role: アプリ管理責任者
+    last_reviewed_on: "2026-07-04"
+    notes: "WFS第1号Candidate。利用成果物の正本はGoogle Drive。"
+
   - app_id: APP-0001
     name: 資金繰りアプリ
     purpose: "日々の入出金予定と実績、売掛・買掛、口座残高を確認し、短期の資金繰りを把握する。"

@@ -1,5 +1,16 @@
 schema_version: 1
 systems:
+  - system_id: SYS-0002
+    name: 部門別損益ダッシュボードシステム
+    purpose: "会計試算表を正規化し、部門別損益、比較指標、経営グラフを生成する。"
+    app_ids: [APP-0002]
+    database_ids: []
+    lifecycle_status: proposed
+    owner_role: システム管理責任者
+    canonical_reference: "https://github.com/wellzfriend420/wellzfriend-department-pl-dashboard/blob/main/SYSTEM_ARCHITECTURE.md"
+    last_reviewed_on: "2026-07-04"
+    notes: "WFS-CAND-0001。Google Drive上の親テンプレートはBT-0002で管理。"
+
   - system_id: SYS-0001
     name: 資金繰りシステム
     purpose: "入出金予定・実績、売掛・買掛、口座残高を管理し、短期の資金繰り判断を支援する。"
