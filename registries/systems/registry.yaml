@@ -19,4 +19,4 @@ systems:
     owner_role: システム管理責任者
     canonical_reference: "APP-0001 / REPO-0001"
     last_reviewed_on: "2026-07-04"
-    notes: "WFS第1号モデル。実運用後に標準化候補を評価する。"
+    notes: "WFS Status: Candidate。第1号ベースモデルとして実運用後に正式標準への昇格を評価する。"

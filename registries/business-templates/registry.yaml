@@ -29,4 +29,4 @@ business_templates:
     consuming_app_ids: [APP-0001]
     owner_role: テンプレート管理責任者
     last_reviewed_on: "2026-07-04"
-    notes: "実運用前のため正式WFSではない。"
+    notes: "WFS Status: Candidate。実運用前のため正式WFSではない。"
