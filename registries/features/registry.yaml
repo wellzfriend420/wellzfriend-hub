@@ -1,5 +1,15 @@
 schema_version: 1
 features:
+  - feature_id: FEAT-000004
+    name: 受注工事・工程・原価・帳票管理
+    purpose: "受注工事の工程と利益情報を権限分離して管理し、紙の工程票と会議帳票を生成する。"
+    app_ids: [APP-0004]
+    specification_reference: "https://github.com/wellzfriend420/wellnot-order-profit-management/blob/main/docs/design/feature-specification.md"
+    lifecycle_status: development
+    owner_role: プロダクト管理責任者
+    last_reviewed_on: "2026-07-05"
+    notes: "工程スケジュールカレンダー、A4/A3印刷、Excel期間出力を含む。"
+
   - feature_id: FEAT-000000
     name: "【サンプル】業務状況表示"
     purpose: "【サンプル】機能台帳の記入方法を示す。"

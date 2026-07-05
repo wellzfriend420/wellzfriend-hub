@@ -30,3 +30,6 @@ secrets.*
 # Generated temporary files
 *.tmp
 *.log
+
+# Independent application working copies
+/wellnot-order-profit-management/

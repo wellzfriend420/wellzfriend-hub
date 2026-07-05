@@ -1,5 +1,20 @@
 schema_version: 1
 databases:
+  - database_id: DB-0003
+    name: ウェルノット受注工事データベース
+    purpose: "受注工事、工程予定・実績、原価、改善メモ、監査履歴を管理する。"
+    system_ids: [SYS-0004]
+    app_ids: [APP-0004]
+    data_classification: confidential
+    canonical_data_owner: データ管理責任者
+    logical_location: "対象アプリの管理された実行環境。初期実装はSQLite、設計正本はREPO-0004。"
+    retention_policy: "法令・契約・業務上の必要期間を運用開始前に確定。通常削除は論理削除。"
+    backup_policy: "日次バックアップ、四半期復元試験、復元時の整合性・件数・監査最終日時照合。"
+    lifecycle_status: proposed
+    owner_role: データベース管理責任者
+    last_reviewed_on: "2026-07-05"
+    notes: "実データ、認証情報、接続情報はHubおよびアプリリポジトリへ保存しない。"
+
   - database_id: DB-0002
     name: AI研究所データ構造
     purpose: "困りごと、市場調査、実験、改善、発信、商品化、AI利用知識の論理構造と連携契約を管理する。"

@@ -1,5 +1,17 @@
 schema_version: 1
 repositories:
+  - repository_id: REPO-0004
+    name: wellnot-order-profit-management
+    purpose: "ウェルノットの受注工事、工程、原価、粗利改善、紙帳票自動生成を管理する。"
+    github_repository: "wellzfriend420/wellnot-order-profit-management"
+    app_ids: [APP-0004]
+    template_ids: []
+    visibility: private
+    lifecycle_status: active
+    owner_role: リポジトリ管理責任者
+    last_reviewed_on: "2026-07-05"
+    notes: "WFS Candidate。設計・コードの正本。現行Excel原本と運用データは保存しない。"
+
   - repository_id: REPO-0003
     name: wellzfriend-ai-research-lab
     purpose: "AI研究所のApps Script、設計、検証、AI引継ぎ、変更履歴を管理する。"

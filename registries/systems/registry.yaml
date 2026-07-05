@@ -1,5 +1,16 @@
 schema_version: 1
 systems:
+  - system_id: SYS-0004
+    name: ウェルノット 受注工事・利益管理システム
+    purpose: "受注工事の工程、見積、実績原価、改善知識を関連付け、粗利改善を支援する。"
+    app_ids: [APP-0004]
+    database_ids: [DB-0003]
+    lifecycle_status: proposed
+    owner_role: システム管理責任者
+    canonical_reference: "https://github.com/wellzfriend420/wellnot-order-profit-management/blob/main/docs/design/system-design.md"
+    last_reviewed_on: "2026-07-05"
+    notes: "WFS Candidate。紙をなくさず、紙を自動生成して管理・分析を効率化する。"
+
   - system_id: SYS-0003
     name: AI研究所システム
     purpose: "困りごとを中心に調査、実験、改善、記事、商品、AI利用知識を関連付け、商品化判断を支援する。"

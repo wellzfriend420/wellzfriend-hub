@@ -1,5 +1,16 @@
 schema_version: 1
 apps:
+  - app_id: APP-0004
+    name: ウェルノット 受注工事・利益管理
+    purpose: "紙の工程票運用を維持しながら、工程の見える化、見積精度、原価、粗利を改善する。"
+    system_ids: [SYS-0004]
+    repository_id: REPO-0004
+    business_template_ids: []
+    lifecycle_status: development
+    owner_role: アプリ管理責任者
+    last_reviewed_on: "2026-07-05"
+    notes: "工程管理単体ではなく利益改善を目的とする。資金繰り、請求、入金は対象外。"
+
   - app_id: APP-0003
     name: AI研究所
     purpose: "多業種の困りごとを収集し、市場調査、実験、改善、発信、商品化までを一元管理する。"
