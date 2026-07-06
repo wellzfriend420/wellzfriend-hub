@@ -25,8 +25,8 @@ candidates:
     business_template_id: BT-0002
     local_reference: "D:/WellzFriend_projects/department-pl-dashboard"
     google_drive_template_id: 1pY1Q8tuJWJBq25zL-PKuOmygZ50XYffnJ6cRPKiym-Q
-    evaluation_areas: ["保守性", "拡張性", "AI引継ぎ", "テンプレート運用"]
+    evaluation_areas: ["保守性", "拡張性", "AI引継ぎ", "テンプレート運用", "成果物3層分離"]
     owner_role: 開発標準管理責任者
     started_on: "2026-07-04"
-    last_reviewed_on: "2026-07-04"
-    notes: "親テンプレート名と独立GitHubリポジトリはWFS準拠済み。正式標準への昇格は実運用で効果を確認し、承認後に行う。"
+    last_reviewed_on: "2026-07-06"
+    notes: "親テンプレート名と独立GitHubリポジトリはWFS準拠済み。v0.6でDashboard・Report・Executive Reportの役割分離を実装。正式標準への昇格は実運用で効果を確認し、承認後に行う。"

@@ -18,9 +18,9 @@ business_templates:
 
   - business_template_id: BT-0002
     template_name: TPL_部門別損益ダッシュボード
-    purpose: "会計試算表から部門別損益、比較指標、経営ダッシュボードを作成する親テンプレート。"
+    purpose: "会計試算表から部門別損益、比較指標、経営ダッシュボード、提出用経営サマリーを作成する親テンプレート。"
     target_apps: "部門別損益管理を行う承認済み案件"
-    current_version: "0.5"
+    current_version: "0.6"
     status: proposed
     github_repository: "wellzfriend420/wellzfriend-department-pl-dashboard"
     master_template_location: "Google Drive file ID: 1pY1Q8tuJWJBq25zL-PKuOmygZ50XYffnJ6cRPKiym-Q"
@@ -30,7 +30,7 @@ business_templates:
     consuming_app_ids: [APP-0002]
     owner_role: テンプレート管理責任者
     last_reviewed_on: "2026-07-06"
-    notes: "Drive配置: WellzFriend/Templates/Department PL Dashboard/TPL_部門別損益ダッシュボード_v0.5。WFS-CAND-0001。"
+    notes: "Drive配置: WellzFriend/Templates/Department PL Dashboard/TPL_部門別損益ダッシュボード_v0.6。Dashboard・Report・Executive Reportを採用。WFS-CAND-0001。"
 
   - business_template_id: BT-0001
     template_name: TPL_資金繰り
