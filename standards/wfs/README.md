@@ -2,13 +2,13 @@
 
 ウェルズフレンドで開発する全システムの、開発・保守・AI引継ぎ・テンプレート化を統一する標準です。
 
-- Current Version: **0.1**
+- Current Version: **0.2**
 - 状態: **approved**
 - 管理責任: 開発標準管理責任者
 - 承認責任: アプリ事業責任者
 - 制定日: 2026-07-04
-- 最終確認日: 2026-07-04
-- 現行版本文: [WFS Ver.0.1](WFS_v0.1.md)
+- 最終確認日: 2026-07-06
+- 現行版本文: [WFS Ver.0.2](WFS_v0.2.md)
 - 変更履歴: [CHANGELOG](CHANGELOG.md)
 - Google Drive構成台帳: [drive-structure.yaml](drive-structure.yaml)
 - Candidate一覧: [candidates.yaml](candidates.yaml)
